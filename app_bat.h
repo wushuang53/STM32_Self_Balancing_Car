@@ -1,9 +1,0 @@
-#ifndef APP_BAT_H
-#define APP_BAT_H
-
-#include "stm32f10x.h"
-
-void App_Bat_Init(void);
-float App_Bat_Get(void);//外部调用获取vbat的值
-
-#endif //防止头文件被重复引用
