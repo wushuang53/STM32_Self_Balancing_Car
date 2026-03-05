@@ -53,3 +53,29 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Keil MDK 编译产物
+/balance_car/DebugConfig/
+/balance_car/Listings/
+/balance_car/Objects/
+
+# 编译输出文件
+*.axf
+*.hex
+*.bin
+*.elf
+*.map
+
+# 编辑器临时文件
+*.bak
+*.swp
+*.swo
+*~
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 本地配置文件（如果有）
+*.uvoptx.bak
+*.uvguix.bak
